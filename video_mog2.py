@@ -167,7 +167,7 @@ timestamps_carros = []  # timestamp de cada carro contado
 
 print("Iniciando... aguarde ~10s para o MoG2 aprender o fundo.")
 print("Tecle 'q' para sair | 'd' para alternar debug da máscara")
-mostrar_debug = True
+mostrar_debug = False
 
 while True:
     sucesso, frame = cap.read()
